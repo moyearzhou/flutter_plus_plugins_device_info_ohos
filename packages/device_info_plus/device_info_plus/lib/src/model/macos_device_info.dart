@@ -37,6 +37,9 @@ class MacOsDeviceInfo extends BaseDeviceInfo {
   /// Device model
   final String model;
 
+  /// Best-effort model display name used by newer device_info_plus versions.
+  String get modelName => model;
+
   /// Machine Kernel version.
   /// Examples:
   /// `Darwin Kernel Version 15.3.0: Thu Dec 10 18:40:58 PST 2015; root:xnu-3248.30.4~1/RELEASE_X86_64`

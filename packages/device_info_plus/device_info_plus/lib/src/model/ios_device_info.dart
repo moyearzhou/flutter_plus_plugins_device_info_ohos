@@ -41,6 +41,9 @@ class IosDeviceInfo extends BaseDeviceInfo {
   /// https://developer.apple.com/documentation/uikit/uidevice/1620044-model
   final String model;
 
+  /// Best-effort model display name used by newer device_info_plus versions.
+  String get modelName => localizedModel;
+
   /// Localized name of the device model.
   /// https://developer.apple.com/documentation/uikit/uidevice/1620029-localizedmodel
   final String localizedModel;
