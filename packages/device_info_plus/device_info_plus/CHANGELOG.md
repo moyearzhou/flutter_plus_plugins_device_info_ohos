@@ -1,3 +1,7 @@
+## 11.1.0-zotpaper-ohos.1
+
+- 固定现有鸿蒙兼容实现并发布至私有 Pub，内部依赖改用 hosted。
+
 ## 11.1.0
 
  - **FIX**(device_info_plus): Ignore `MissingPermission` lint error on Android ([#3317](https://github.com/fluttercommunity/plus_plugins/issues/3317)). ([6469523f](https://github.com/fluttercommunity/plus_plugins/commit/6469523fb14f32f7aa23892183693a8f502992d3))
